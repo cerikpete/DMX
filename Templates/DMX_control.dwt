@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable --><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image:  url(../images/tile.jpg);
+}
+-->
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<link href="../style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="273" valign="bottom"><img height="81" alt="" src="../images/control_top.GIF" width="273" border="0"></td>
+    <td><table height="81" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="63" align="left"><IMG height="63" alt="" src="../images/control_title.GIF" width="303" border="0"></td>
+      </tr>
+      <tr>
+        <td height="18" bgcolor="#DEDBDE">Welcome, ____________ </td>
+      </tr>
+    </table>      </td>
+  </tr>
+  <tr>
+    <td colspan="2"><table width="576" border="0" cellspacing="0" cellpadding="0">
+      <tr valign="top">
+        <td width="64"><img src="../images/control_left.GIF" width="64" height="199"></td>
+        <td width="117"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="200" class="menu">&nbsp;</td>
+          </tr>
+          <tr>
+            <td><img src="../images/menu_bottom.GIF" width="117" height="26"></td>
+          </tr>
+        </table></td>
+        <td width="385" bgcolor="#FFFFFF" class="main"><div class="title">Page Name</div>          <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="maincell">qlwkjerlqwkjrlwekqjr</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="10"><img src="../images/control_right.GIF" width="10" height="142"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

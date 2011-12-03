@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProductVersion>8.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E927C056-B865-4AAF-8103-28AC6DD3B0A9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>dmx</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>dmx</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation />
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\editUser.aspx.cs">
+      <DependentUpon>editUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\editUser.aspx.designer.cs">
+      <DependentUpon>editUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\reActivateUser.aspx.cs">
+      <DependentUpon>reActivateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\reActivateUser.aspx.designer.cs">
+      <DependentUpon>reActivateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\userAdmin.aspx.cs">
+      <DependentUpon>userAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\userAdmin.aspx.designer.cs">
+      <DependentUpon>userAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\userQuotas.aspx.cs">
+      <DependentUpon>userQuotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\userQuotas.aspx.designer.cs">
+      <DependentUpon>userQuotas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\AuthenticatedMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\CustomPrincipal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Database.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\DatabaseException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\DataUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\DMXUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\EntityObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Top25Account.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Top25MonthlySummary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\UserAuth.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Components\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\indivTop25Month.ascx.cs">
+      <DependentUpon>indivTop25Month.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\indivTop25Month.ascx.designer.cs">
+      <DependentUpon>indivTop25Month.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Top25Account.ascx.cs">
+      <DependentUpon>Top25Account.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Top25Account.ascx.designer.cs">
+      <DependentUpon>Top25Account.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Top25MonthSummary.ascx.cs">
+      <DependentUpon>Top25MonthSummary.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Top25MonthSummary.ascx.designer.cs">
+      <DependentUpon>Top25MonthSummary.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UserMenu.ascx.cs">
+      <DependentUpon>UserMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\UserMenu.ascx.designer.cs">
+      <DependentUpon>UserMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="indivSales.aspx.cs">
+      <DependentUpon>indivSales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indivSales.aspx.designer.cs">
+      <DependentUpon>indivSales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notify.aspx.cs">
+      <DependentUpon>notify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notify.aspx.designer.cs">
+      <DependentUpon>notify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reActivateAcct.aspx.cs">
+      <DependentUpon>reActivateAcct.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reActivateAcct.aspx.designer.cs">
+      <DependentUpon>reActivateAcct.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Top25Forecast.aspx.cs">
+      <DependentUpon>Top25Forecast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top25Forecast.aspx.designer.cs">
+      <DependentUpon>Top25Forecast.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Top25Report.aspx.cs">
+      <DependentUpon>Top25Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Top25Report.aspx.designer.cs">
+      <DependentUpon>Top25Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BaseControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="Admin\editUser.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Admin\reActivateUser.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Admin\userAdmin.aspx" />
+    <Content Include="Admin\userQuotas.aspx" />
+    <Content Include="Controls\indivTop25Month.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="Controls\Top25Account.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="Controls\Top25MonthSummary.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="Controls\UserMenu.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax">
+      <SubType>Component</SubType>
+    </Content>
+    <Content Include="indivSales.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="notify.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="reActivateAcct.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="style.css" />
+    <Content Include="Top25Forecast.aspx" />
+    <Content Include="Top25Report.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Web.config" />
+    <EmbeddedResource Include="Admin\editUser.aspx.resx">
+      <DependentUpon>editUser.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\reActivateUser.aspx.resx">
+      <DependentUpon>reActivateUser.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\userAdmin.aspx.resx">
+      <DependentUpon>userAdmin.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\userQuotas.aspx.resx">
+      <DependentUpon>userQuotas.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\indivTop25Month.ascx.resx">
+      <DependentUpon>indivTop25Month.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Top25Account.ascx.resx">
+      <DependentUpon>Top25Account.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Top25MonthSummary.ascx.resx">
+      <DependentUpon>Top25MonthSummary.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UserMenu.ascx.resx">
+      <DependentUpon>UserMenu.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="default.aspx.resx">
+      <DependentUpon>default.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="indivSales.aspx.resx">
+      <DependentUpon>indivSales.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="notify.aspx.resx">
+      <DependentUpon>notify.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reActivateAcct.aspx.resx">
+      <DependentUpon>reActivateAcct.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Top25Forecast.aspx.resx">
+      <DependentUpon>Top25Forecast.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Top25Report.aspx.resx">
+      <DependentUpon>Top25Report.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51261</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/dmx</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

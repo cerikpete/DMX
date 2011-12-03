@@ -1,0 +1,228 @@
+.error
+{
+	color: Red;	
+}
+
+.error a
+{
+	color: Red;	
+}
+
+.dataheader {
+		background-color: #EEEEEE;
+	}
+
+	a {
+		color: #000000;
+	}
+
+	a:hover {
+		color: #990000;
+	}
+
+	body {
+		font-family: Verdana;
+		font-size: 10px;
+		color: #000000;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
+
+	table {
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+	}
+
+	table.frame {
+		
+	 	margin: 15 15 15 15;
+	}
+
+	table.tableheader {
+		border-top: 1pt solid black;
+		border-left: 1pt solid black;
+		border-right: 1pt solid black;
+		padding: 4px;
+	}
+
+	table.tablebody {
+		border-top: 1pt solid black;
+		border-left: 1pt solid black;
+		border-right: 1pt solid black;
+		border-bottom: 1pt solid black;
+		padding: 4px;
+	}
+
+	td.maincell {
+		border-top: 1pt solid black;
+		border-left: 1pt solid black;
+		border-right: 1pt solid black;
+		border-bottom: 1pt solid black;
+		padding: 4px;
+	}
+
+	td.mainheader {
+		border-top: 1pt solid black;
+		border-left: 1pt solid black;
+		border-right: 1pt solid black;
+		background-color: #EEEEEE;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	tr {
+		vertical-align: top;
+	}
+
+	td {
+		font-family: Verdana;
+		font-size: 10pt;
+		color: #000000;
+	}
+
+	td.header {
+		font-size: 12pt;
+		font-weight: 100;
+		text-align: center;
+	}
+
+	td.title {
+		font-size: 14pt;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	.title {
+	font-size: 14pt;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding-bottom: 6px;
+	}
+
+	td.question {
+		font-size: 11pt;
+	}
+
+	td.menu {
+		background-color: #DCDADA;
+		border-left: 1pt solid #999999;
+	}
+
+	td.main {
+		border-top: 1pt solid #999999;
+		border-left: 1pt solid #999999;
+		border-right: 1pt solid #999999;
+		border-bottom: 1pt solid #999999;
+		background-color: #FFFFFF;
+		padding: 4px 12px 4px 12px;
+	}
+
+	td.odd {
+		background-color: #DDDDDD;
+	}
+
+	td.even {
+		background-color: #DEEBE9;
+	}
+
+	input.textfield {
+		height: 20px;
+		width: 40px;
+		font-size: 9pt;
+		border: 1pt solid black;
+	}
+	
+	input.textfield1 {
+			height: 20px;
+			width: 160px;
+			font-size: 9pt;
+			border: 1pt solid black;
+	}
+	
+	input.directional {
+		width: 30px;
+	}
+	
+	input.money {
+		width: 70px;
+		text-align: right;
+	}
+	
+
+.ReportTitle
+{
+	font-size: 14pt;
+}
+
+TABLE.Top25
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	padding: 6 6 6 6;
+}
+TR.Top25Data TD
+{
+	background-color: #ffffff;
+	text-align: right;
+	padding: 2 4 2 4;
+	white-space:nowrap;
+}
+
+TR.Top25AlternateData TD
+{
+	background-color: #dddddd;
+	text-align: right;
+	padding: 2 4 2 4;
+	white-space:nowrap;
+}
+
+TR TD.Top25RowHeader
+{
+	font-weight: bold;
+	background-color: #ffffcc;
+	text-align: right;
+}
+
+TR.Top25ColumnHeader, TD.Top25ColumnHeader
+{
+	font-weight: bold;
+	background-color: #DEEBE9;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+TR.Top25ColumnFooter TD
+{
+	font-weight: bold;
+	text-align: right;
+	padding: 2 4 2 4;
+}
+
+TR TD.Top25FooterRowHeader
+{
+	background-color: #DEEBE9;
+}
+
+TR TD.negative
+{
+	background-color: #ff0000;
+}
+
+TR TD.positive
+{
+	background-color: #00ff00;
+}
+
+
+/* EXAMPLE */
+.mytable {
+width: 250px;
+}
+.mytable > tr > td { /*only immediate tds of mytable*/
+padding: 6px; /*cellpadding*/
+margin: 0px; /*cellspacing*/
+}
+.mytable td { /*any td at any level of mytable*/
+font-size: small; 
+}
+
+
