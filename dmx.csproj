@@ -251,6 +251,13 @@
     <Content Include="Global.asax">
       <SubType>Component</SubType>
     </Content>
+    <Content Include="images\control_left.GIF" />
+    <Content Include="images\control_right.GIF" />
+    <Content Include="images\control_title.GIF" />
+    <Content Include="images\control_top.GIF" />
+    <Content Include="images\menu_bottom.GIF" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\tile.jpg" />
     <Content Include="indivSales.aspx">
       <SubType>Form</SubType>
     </Content>
@@ -265,7 +272,9 @@
     <Content Include="Top25Report.aspx">
       <SubType>Form</SubType>
     </Content>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <EmbeddedResource Include="Admin\editUser.aspx.resx">
       <DependentUpon>editUser.aspx.cs</DependentUpon>
     </EmbeddedResource>
