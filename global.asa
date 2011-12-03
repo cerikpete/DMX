@@ -24,7 +24,7 @@ End Sub
 Sub Application_OnStart
 '   Application("ConnectString") = "DSN=dmx; User Id=dmx; Password=music85; trusted connection=yes;"
   
-  Application("ConnectString") = "Data Source=SQLA14.WEBCONTROLCENTER.COM;Initial Catalog=dmxmusic;Provider=SQLOLEDB;User ID=dmx;Password=music85;"
+  Application("ConnectString") = "Data Source=.\SQLEXPRESS;Initial Catalog=DMX;Provider=SQLOLEDB;user id=dmx3;password=dmx;"  
 End Sub
 
 Sub Application_OnEnd
