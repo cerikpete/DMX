@@ -24,7 +24,8 @@ End Sub
 Sub Application_OnStart
 '   Application("ConnectString") = "DSN=dmx; User Id=dmx; Password=music85; trusted connection=yes;"
   
-  Application("ConnectString") = "Data Source=.\SQLEXPRESS;Initial Catalog=DMX;Provider=SQLOLEDB;user id=dmx3;password=dmx;"  
+  Application("ConnectString") = "Server=0bde1284-3778-4fdb-ade6-9fae01244fb8.sqlserver.sequelizer.com;Provider=SQLOLEDB;Database=db0bde128437784fdbade69fae01244fb8;User ID=bzpjhnshjlmuevzu;Password=JhnMWsQg4eCueyRwkUzEybxnvr7WxwbkMmLcuudUnEAmbwn6RhLyyyyHRaqDt3RE;"  
+  
 End Sub
 
 Sub Application_OnEnd
