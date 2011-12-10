@@ -193,6 +193,9 @@
     <Compile Include="indivSales.aspx.designer.cs">
       <DependentUpon>indivSales.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Notification.aspx.cs">
+      <DependentUpon>Notification.aspx</DependentUpon>
+    </Compile>
     <Compile Include="notify.aspx.cs">
       <DependentUpon>notify.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -227,6 +230,9 @@
     <Compile Include="UI\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Content Include="Admin\editUser.aspx">
       <SubType>Form</SubType>
     </Content>
@@ -248,6 +254,8 @@
       <SubType>UserControl</SubType>
     </Content>
     <Content Include="default.aspx" />
+    <Content Include="DMX_control.htm" />
+    <Content Include="global.asa" />
     <Content Include="Global.asax">
       <SubType>Component</SubType>
     </Content>
@@ -261,13 +269,30 @@
     <Content Include="indivSales.aspx">
       <SubType>Form</SubType>
     </Content>
+    <Content Include="Notification.aspx" />
     <Content Include="notify.aspx">
       <SubType>Form</SubType>
     </Content>
     <Content Include="reActivateAcct.aspx">
       <SubType>Form</SubType>
     </Content>
+    <Content Include="SalesHome.asp" />
+    <Content Include="sendEmail.asp" />
     <Content Include="style.css" />
+    <Content Include="subCloseAccount.asp" />
+    <Content Include="subCreateNewAccount.asp" />
+    <Content Include="subDeleteAccount.asp" />
+    <Content Include="subExcelViewAccounts.asp" />
+    <Content Include="subGetAccountInfo.asp" />
+    <Content Include="subGetEmployeeAccounts.asp" />
+    <Content Include="subInsertUpdateAccount.asp" />
+    <Content Include="subMoveAccount.asp" />
+    <Content Include="subNotifyManager.asp" />
+    <Content Include="subValidateAccount.asp" />
+    <Content Include="temp.aspx" />
+    <Content Include="temp.htm" />
+    <Content Include="template.htm" />
+    <Content Include="Top25Forecast.asp" />
     <Content Include="Top25Forecast.aspx" />
     <Content Include="Top25Report.aspx">
       <SubType>Form</SubType>
@@ -275,6 +300,8 @@
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="x_default.asp" />
     <EmbeddedResource Include="Admin\editUser.aspx.resx">
       <DependentUpon>editUser.aspx.cs</DependentUpon>
     </EmbeddedResource>
@@ -308,6 +335,9 @@
     <EmbeddedResource Include="indivSales.aspx.resx">
       <DependentUpon>indivSales.aspx.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Notification.aspx.resx">
+      <DependentUpon>Notification.aspx.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="notify.aspx.resx">
       <DependentUpon>notify.aspx.cs</DependentUpon>
     </EmbeddedResource>
@@ -320,6 +350,17 @@
     <EmbeddedResource Include="Top25Report.aspx.resx">
       <DependentUpon>Top25Report.aspx.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WebForm1.aspx.resx">
+      <DependentUpon>WebForm1.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="adovbs.inc" />
+    <None Include="Connect.inc" />
+    <None Include="DisConnect.inc" />
+    <None Include="ErrorHandler.inc" />
+    <Content Include="local.config" />
+    <None Include="Security.inc" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
