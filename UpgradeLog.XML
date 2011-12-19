@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
 <Properties><Property Name="Solution" Value="dmx">
 </Property><Property Name="Solution File" Value="C:\development\DMX\dmx.sln">
-</Property><Property Name="Date" Value="Wednesday, October 19, 2011">
-</Property><Property Name="Time" Value="19:25:56 PM">
+</Property><Property Name="Date" Value="Monday, December 19, 2011">
+</Property><Property Name="Time" Value="13:57:41 PM">
 </Property></Properties><Event ErrorLevel="0" Project="dmx" Source="dmx.csproj" Description="Scan complete: Upgrade not required for project files.">
 </Event><Event ErrorLevel="3" Project="dmx" Source="dmx.csproj" Description="Converted">
 </Event><Event ErrorLevel="0" Project="dmx" Source="dmx.csproj" Description="You have completed the first step in converting your Visual Studio .NET 2003 web project. To complete the conversion, please select your project in the Solution Explorer and choose the 'Convert to Web Application' context menu item.">

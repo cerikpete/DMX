@@ -82,12 +82,12 @@ namespace dmx
 				row["dtmSent"] = DateTime.Now;
 
 			}
-			if (msg !=null)
-			{
-				msg.Body = msgBody + "</pre>\n\n<a href=\"http://www.top25hpa.com\">Log in to Top25HPA.com</a> \n\n";
-				Messages.Add(msg);
-				SmtpMail.Send(msg);
-			}
+//			if (msg !=null)
+//			{
+//				msg.Body = msgBody + "</pre>\n\n<a href=\"http://www.top25hpa.com\">Log in to Top25HPA.com</a> \n\n";
+//				Messages.Add(msg);
+//				SmtpMail.Send(msg);
+//			}
 
 			//			dt.AcceptChanges();
 			data.UpdateNotificationQueue(dt);
