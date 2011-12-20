@@ -210,7 +210,6 @@ End If
 				</table>
 				<table cellpadding="0" cellspacing="0">
 					<tr>
-						<td><img src="images/control_left.GIF" width="64" height="199" alt="" border="0"></td>
 						<td>
 							<table width="100%" cellpadding="0" cellspacing="0">
 								<tr height="20"><td class="menu" style="border-left: 1pt solid #999999;">&nbsp;</td><td class="menu" style="border-bottom: 1pt solid #999999;"><a href="">Home</a></td><td class="menu">&nbsp;</td></tr>

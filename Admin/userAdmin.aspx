@@ -29,7 +29,6 @@
 				<tr>
 					<td colspan="2"><table width="576" border="0" cellspacing="0" cellpadding="0">
 							<tr valign="top">
-								<td width="64"><img src="../images/control_left.GIF" width="64" height="199"></td>
 								<td width="117"><table width="100%" border="0" cellspacing="0" cellpadding="0">
 										<tr>
 											<td height="200" class="menu">&nbsp;

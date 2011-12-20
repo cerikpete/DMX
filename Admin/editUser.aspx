@@ -32,7 +32,6 @@
 					<td colSpan="2">
 						<table cellSpacing="0" cellPadding="0" width="576" border="0">
 							<tr vAlign="top">
-								<td width="64"><IMG height="199" src="../images/control_left.GIF" width="64"></td>
 								<td width="117">
 									<table cellSpacing="0" cellPadding="0" width="100%" border="0">
 										<tr>

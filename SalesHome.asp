@@ -144,7 +144,6 @@ End If
 				</table>
 				<table cellpadding="0" cellspacing="0">
 					<tr>
-						<td><img src="images/control_left.GIF" width="64" height="199" alt="" border="0"></td>
 						<td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
                           <tr>
                             <td height="200" bgcolor="#DCDADA"><table width="100%" cellpadding="0" cellspacing="0">

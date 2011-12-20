@@ -34,7 +34,6 @@
 				</table>
 				<table cellpadding="0" cellspacing="0">
 					<tr>
-						<td><img src="images/control_left.GIF" width="64" height="199" alt="" border="0"></td>
 						<td>
 							<table width="100%" cellpadding="0" cellspacing="0">
                 <tr> 
