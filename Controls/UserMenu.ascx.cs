@@ -58,8 +58,8 @@ namespace dmx.Controls
 			}
 			else if (Page.User.IsInRole(Database.EmployeeType.Administrator.ToString()))
 			{
-				tblMenu.Rows.RemoveAt(1);
-				tblMenu.Rows.RemoveAt(1);
+//				tblMenu.Rows.RemoveAt(1);
+//				tblMenu.Rows.RemoveAt(1);
 				TableRow myRow = new TableRow();
 				TableCell linkCell = new TableCell();
 				myRow.Cells.Add(new TableCell());
