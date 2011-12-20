@@ -161,12 +161,7 @@ End If
                                 <td class="menu" style="border-left: 1pt solid #999999;">&nbsp;</td>
                                 <td class="menu" style="border-bottom: 1pt solid #999999;"><a href="top25forecast.aspx">Top 25</a></td>
                                 <td class="menu">&nbsp;</td>
-                              </tr>
-                              <tr height="20">
-                                <td class="menu" style="border-left: 1pt solid #999999;">&nbsp;</td>
-                                <td class="menu" style="border-bottom: 1pt solid #999999;"><a href="Installation_Log.xls">Installation Log</a></td>
-                                <td class="menu">&nbsp;</td>
-                              </tr>
+                              </tr>                              
                               <tr height="20">
                                 <td class="menu" style="border-left: 1pt solid #999999;">&nbsp;</td>
                                 <td class="menu" style="border-bottom: 1pt solid #999999;"><a href="default.aspx">Log Off</a></td>

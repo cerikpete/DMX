@@ -6,19 +6,7 @@
 			<asp:HyperLink id="lnkHome" runat="server">Home</asp:HyperLink>
 		</asp:TableCell>
 		<asp:TableCell>&nbsp;</asp:TableCell>
-	</asp:TableRow>
-	<asp:TableRow>
-		<asp:TableCell>&nbsp;</asp:TableCell>
-		<asp:TableCell>
-			<a href="Installation_Log.xls">Installation Log</a></asp:TableCell>
-		<asp:TableCell>&nbsp;</asp:TableCell>
-	</asp:TableRow>
-	<asp:TableRow>
-		<asp:TableCell>&nbsp;</asp:TableCell>
-		<asp:TableCell>
-			<a href="Installation_Log_Treo.xls">Inst. Log - Treo</a></asp:TableCell>
-		<asp:TableCell>&nbsp;</asp:TableCell>
-	</asp:TableRow>
+	</asp:TableRow>	
 	<asp:TableRow>
 		<asp:TableCell>&nbsp;</asp:TableCell>
 		<asp:TableCell>
