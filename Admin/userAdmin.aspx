@@ -14,10 +14,10 @@
 		<form id="loginForm" method="post" runat="server">
 			<table border="0" align="center" cellpadding="0" cellspacing="0">
 				<tr>
-					<td width="273" valign="bottom"><img height="81" alt="" src="../images/control_top.GIF" width="273" border="0"></td>
+					<td width="273" valign="bottom"><img height="81" alt="" src="../images/Independencegraphic1.jpg" width="273" border="0"></td>
 					<td><table height="81" border="0" cellpadding="0" cellspacing="0">
 							<tr>
-								<td height="63" align="left"><IMG height="63" alt="" src="../images/control_title.GIF" width="303" border="0"></td>
+								<td height="63" align="left"><IMG height="63" alt="" src="../images/control_title.gif" width="303" border="0"></td>
 							</tr>
 							<tr>
 								<td height="18" bgcolor="#dedbde">

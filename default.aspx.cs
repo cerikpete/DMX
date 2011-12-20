@@ -12,6 +12,8 @@ using dmx.Components;
 using dmx.UI;
 using System.Web.Security;
 using System.Security.Principal;
+using log4net;
+using log4net.Core;
 
 namespace dmx
 {

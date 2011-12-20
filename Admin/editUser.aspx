@@ -16,11 +16,11 @@
 		<form id="loginForm" method="post" runat="server">
 			<table cellSpacing="0" cellPadding="0" align="center" border="0">
 				<tr>
-					<td vAlign="bottom" width="273"><IMG height="81" alt="" src="../images/control_top.GIF" width="273" border="0"></td>
+					<td vAlign="bottom" width="273"><IMG height="81" alt="" src="../images/Independencegraphic1.jpg" width="273" border="0"></td>
 					<td>
 						<table height="81" cellSpacing="0" cellPadding="0" border="0">
 							<tr>
-								<td align="left" height="63"><IMG height="63" alt="" src="../images/control_title.GIF" width="303" border="0"></td>
+								<td align="left" height="63"><IMG height="63" alt="" src="../images/control_title.gif" width="303" border="0"></td>
 							</tr>
 							<tr>
 								<td bgColor="#dedbde" height="18"></td>

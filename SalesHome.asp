@@ -132,10 +132,10 @@ End If
 			<td>
 				<table cellpadding="0" cellspacing="0">
 					<tr valign=top>
-						<td><img src="images/control_top.GIF" width="273" height="81" alt="" border="0"></td>
+						<td><img src="images/Independencegraphic1.jpg" width="273" height="81" alt="" border="0"></td>
 						<td>
 							<table cellpadding="0" cellspacing="0">
-								<tr><td colspan="2"><img src="images/control_title.GIF" width="303" height="63" alt="" border="0"></td></tr>
+								<tr><td colspan="2"><img src="images/control_title.gif" width="303" height="63" alt="" border="0"></td></tr>
 								<tr><td class="menu">Welcome <%Response.Write strFName & " " & strLName%></td><td class="menu" style="border-right: 1pt solid #999999;"></td></tr>
 								<tr height="2"><td class="menu"></td><td class="menu" style="border-right: 1pt solid #999999;"></td></tr>
 							</table>
